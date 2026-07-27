@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hi, I'm Abdulraheem Bawazir
+#  Hi, I'm Abdulraheem Bawazir
 
 ### Artificial Intelligence Engineer
 
@@ -19,7 +19,7 @@ Building intelligent applications with Artificial Intelligence, Machine Learning
 
 ---
 
-# 💡 About Me
+#  About Me
 
 🎓 Bachelor of Science in Artificial Intelligence Engineering
 
@@ -33,7 +33,7 @@ Building intelligent applications with Artificial Intelligence, Machine Learning
 
 ---
 
-# 🛠 Tech Stack
+#  Tech Stack
 
 ### Languages
 
@@ -60,7 +60,7 @@ Building intelligent applications with Artificial Intelligence, Machine Learning
 
 ---
 
-# 🚀 Featured Project
+#  Featured Project
 
 ## ⭐ SophiAI
 
@@ -81,7 +81,7 @@ https://github.com/Abdulraheem-Bawazir/SophiAI-Showcase
 
 ---
 
-# 📜 Certifications
+#  Certifications
 
 - Microsoft Azure AI Fundamentals
 - Microsoft Azure Machine Learning & MLOps
@@ -91,7 +91,7 @@ https://github.com/Abdulraheem-Bawazir/SophiAI-Showcase
 
 ---
 
-# 🎯 Current Focus
+#  Current Focus
 
 - Artificial Intelligence Engineering
 - Machine Learning
