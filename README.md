@@ -25,7 +25,7 @@
 
 <p align="center">
   <a href="https://github.com/Abdulraheem-Bawazir?tab=repositories">
-    <img src="https://img.shields.io/badge/PORTFOLIO-6D28D9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/PORTFOLIO-6D28D9?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio" />
   </a>
   <a href="https://www.linkedin.com/in/abdulrheembawazir">
     <img src="https://img.shields.io/badge/LINKEDIN-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -309,10 +309,6 @@ Worked within an enterprise banking environment across AI, data analysis, machin
   </a>
 </p>
 
-<p align="center">
-  <sub>LeetCode, GeeksforGeeks, HackerRank, and CodeChef are not linked until verified public profile handles are available.</sub>
-</p>
-
 ---
 
 ## GitHub Analytics
@@ -320,7 +316,7 @@ Worked within an enterprise banking environment across AI, data analysis, machin
 <p align="center">
   <img
     width="49%"
-    src="./profile/stats.svg"
+    src="./profile-summary-card-output/tokyonight/3-stats.svg"
     alt="Abdulraheem Bawazir GitHub Stats"
   />
 
@@ -334,8 +330,8 @@ Worked within an enterprise banking environment across AI, data analysis, machin
 <p align="center">
   <img
     width="55%"
-    src="./profile/top-langs.svg"
-    alt="Top Languages"
+    src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg"
+    alt="Most Used Languages"
   />
 </p>
 
@@ -358,8 +354,8 @@ Worked within an enterprise banking environment across AI, data analysis, machin
 <p align="center">
   <img
     width="100%"
-    src="https://github-readme-activity-graph.vercel.app/graph?username=Abdulraheem-Bawazir&theme=tokyo-night&hide_border=true&area=true&radius=8"
-    alt="Contribution Activity Graph"
+    src="./profile-summary-card-output/tokyonight/0-profile-details.svg"
+    alt="GitHub Contribution Activity"
   />
 </p>
 
@@ -373,16 +369,14 @@ Worked within an enterprise banking environment across AI, data analysis, machin
       media="(prefers-color-scheme: dark)"
       srcset="https://raw.githubusercontent.com/Abdulraheem-Bawazir/Abdulraheem-Bawazir/output/github-contribution-grid-snake-dark.svg"
     />
-
     <source
       media="(prefers-color-scheme: light)"
       srcset="https://raw.githubusercontent.com/Abdulraheem-Bawazir/Abdulraheem-Bawazir/output/github-contribution-grid-snake.svg"
     />
-
     <img
       width="100%"
-      alt="GitHub Contribution Snake"
       src="https://raw.githubusercontent.com/Abdulraheem-Bawazir/Abdulraheem-Bawazir/output/github-contribution-grid-snake-dark.svg"
+      alt="GitHub Contribution Snake"
     />
   </picture>
 </p>
