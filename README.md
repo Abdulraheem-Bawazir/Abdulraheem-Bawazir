@@ -27,7 +27,7 @@
   <a href="https://github.com/Abdulraheem-Bawazir?tab=repositories">
     <img src="https://img.shields.io/badge/PORTFOLIO-6D28D9?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio" />
   </a>
-  <a href="https://www.linkedin.com/in/abdulrheembawazir">
+  <a href="[https://www.linkedin.com/in/abdulrheembawazir](https://www.linkedin.com/in/abdulraheem-bawazir-78170a357/)">
     <img src="https://img.shields.io/badge/LINKEDIN-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:abdulrheembawazir9@gmail.com">
@@ -385,32 +385,33 @@ Worked within an enterprise banking environment across AI, data analysis, machin
 
 ## Current Focus
 
-```yaml
-learning:
-  - Advanced Retrieval-Augmented Generation
-  - Retrieval evaluation and ranking quality
-  - Production LLM application architecture
-  - AI system evaluation
-  - Reliable local AI infrastructure
+### Learning
+- Advanced Retrieval-Augmented Generation
+- Retrieval evaluation and ranking quality
+- Production LLM application architecture
+- AI system evaluation
+- Reliable local AI infrastructure
 
-building:
-  - NexusRAG
-  - Private-document AI systems
-  - Full-stack AI applications
-  - Tested and deployable backend services
-  - Intelligent product workflows
+### Building
+- **NexusRAG** — local-first private knowledge intelligence
+- Private-document AI systems
+- Full-stack AI applications
+- Tested and deployable backend services
+- Intelligent product workflows
 
-exploring:
-  - Agentic AI
-  - Model Context Protocol
-  - Advanced RAG architectures
-  - Multimodal AI
-  - Local LLM deployment
-  - AI observability
+### Exploring
+- Agentic AI architectures
+- Model Context Protocol (MCP)
+- Advanced RAG architectures
+- Multimodal AI
+- Local LLM deployment
+- AI observability
 
-open_to:
-  - Artificial Intelligence Engineer
-  - Machine Learning Engineer
-  - RAG / LLM Engineer
-  - Applied AI Engineer
-  - AI Product Engineer
+### Open To
+- Artificial Intelligence Engineer
+- Machine Learning Engineer
+- RAG / LLM Engineer
+- Applied AI Engineer
+- AI Product Engineer
+
+---
