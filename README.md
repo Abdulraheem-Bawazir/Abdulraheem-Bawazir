@@ -320,9 +320,10 @@ Worked within an enterprise banking environment across AI, data analysis, machin
 <p align="center">
   <img
     width="49%"
-    src="https://github-readme-stats.vercel.app/api?username=Abdulraheem-Bawazir&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=7C3AED&text_color=C9D1D9&rank_icon=github"
+    src="./profile/stats.svg"
     alt="Abdulraheem Bawazir GitHub Stats"
   />
+
   <img
     width="49%"
     src="https://streak-stats.demolab.com?user=Abdulraheem-Bawazir&hide_border=true&background=0D1117&ring=7C3AED&fire=A78BFA&currStreakLabel=A78BFA&sideLabels=C9D1D9&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF"
@@ -333,7 +334,7 @@ Worked within an enterprise banking environment across AI, data analysis, machin
 <p align="center">
   <img
     width="55%"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdulraheem-Bawazir&layout=compact&langs_count=10&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9"
+    src="./profile/top-langs.svg"
     alt="Top Languages"
   />
 </p>
@@ -345,7 +346,7 @@ Worked within an enterprise banking environment across AI, data analysis, machin
 <p align="center">
   <img
     width="100%"
-    src="https://github-profile-trophy.vercel.app/?username=Abdulraheem-Bawazir&theme=dracula&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=7"
+    src="./profile/trophy.svg"
     alt="GitHub Trophies"
   />
 </p>
@@ -357,7 +358,7 @@ Worked within an enterprise banking environment across AI, data analysis, machin
 <p align="center">
   <img
     width="100%"
-    src="https://github-readme-activity-graph.vercel.app/graph?username=Abdulraheem-Bawazir&bg_color=0D1117&color=A78BFA&line=7C3AED&point=C4B5FD&area=true&area_color=4C1D95&hide_border=true"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=Abdulraheem-Bawazir&theme=tokyo-night&hide_border=true&area=true&radius=8"
     alt="Contribution Activity Graph"
   />
 </p>
@@ -367,11 +368,23 @@ Worked within an enterprise banking environment across AI, data analysis, machin
 ## Contribution Snake
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Contribution%20Snake-Workflow%20Not%20Enabled%20Yet-6D28D9?style=for-the-badge&logo=githubactions&logoColor=white" alt="Contribution Snake Status" />
-</p>
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/Abdulraheem-Bawazir/Abdulraheem-Bawazir/output/github-contribution-grid-snake-dark.svg"
+    />
 
-<p align="center">
-  <sub>The animated contribution snake should be enabled only after the profile repository generates its own output branch, preventing a broken or fake contribution graphic.</sub>
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/Abdulraheem-Bawazir/Abdulraheem-Bawazir/output/github-contribution-grid-snake.svg"
+    />
+
+    <img
+      width="100%"
+      alt="GitHub Contribution Snake"
+      src="https://raw.githubusercontent.com/Abdulraheem-Bawazir/Abdulraheem-Bawazir/output/github-contribution-grid-snake-dark.svg"
+    />
+  </picture>
 </p>
 
 ---
