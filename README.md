@@ -1,381 +1,409 @@
-<div align="center">
+<p align="center">
+  <img
+    width="100%"
+    src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Abdulraheem%20Bawazir&fontSize=46&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Artificial%20Intelligence%20Engineer%20%7C%20Software%20Engineering%20%7C%20AI%20Systems&descSize=16&descAlignY=57"
+    alt="Abdulraheem Bawazir"
+  />
+</p>
 
-# Abdulraheem Bawazir
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img
+      src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2500&pause=700&color=A78BFA&center=true&vCenter=true&width=900&lines=Artificial+Intelligence+Engineer;RAG+%26+LLM+Systems+Engineering;Machine+Learning+%26+Deep+Learning;Full-Stack+AI+Product+Engineering;Building+Reliable+AI+Beyond+the+Demo"
+      alt="Typing SVG"
+    />
+  </a>
+</p>
 
-### Artificial Intelligence Engineer
+<p align="center">
+  <img src="https://img.shields.io/badge/B.Sc.-Artificial%20Intelligence%20Engineering-4F46E5?style=flat-square" alt="Degree" />
+  <img src="https://img.shields.io/badge/Honors-Graduate-6D28D9?style=flat-square" alt="Honors" />
+  <img src="https://img.shields.io/badge/CGPA-3.18-7C3AED?style=flat-square" alt="CGPA" />
+  <img src="https://img.shields.io/badge/Graduated-2026-5B21B6?style=flat-square" alt="Graduated 2026" />
+  <img src="https://img.shields.io/badge/Location-Abu%20Dhabi%2C%20UAE-4338CA?style=flat-square&logo=googlemaps&logoColor=white" alt="Location" />
+</p>
 
-**RAG · LLM Applications · Machine Learning · NLP · Deep Learning**
+<p align="center">
+  <a href="https://github.com/Abdulraheem-Bawazir?tab=repositories">
+    <img src="https://img.shields.io/badge/PORTFOLIO-6D28D9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="https://www.linkedin.com/in/abdulrheembawazir">
+    <img src="https://img.shields.io/badge/LINKEDIN-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:abdulrheembawazir9@gmail.com">
+    <img src="https://img.shields.io/badge/EMAIL-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://github.com/Abdulraheem-Bawazir">
+    <img src="https://img.shields.io/badge/GITHUB-312E81?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+</p>
 
-Building intelligent systems that move beyond demos into structured, tested, and deployable AI applications.
-
-📍 Abu Dhabi, United Arab Emirates
-
-<br>
-
-<a href="https://www.linkedin.com/in/abdulrheembawazir">
-  <img src="https://img.shields.io/badge/LinkedIn-Abdulraheem_Bawazir-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
-</a>
-<a href="mailto:abdulrheembawazir9@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
-</a>
-
-</div>
-
----
-
-## About Me
-
-I am an **Artificial Intelligence Engineering graduate** focused on building practical AI systems around **Large Language Models, Retrieval-Augmented Generation, Machine Learning, Natural Language Processing, and intelligent applications**.
-
-My work ranges from designing complete **RAG pipelines and local LLM systems** to building **conversational AI applications, deep learning models, and data-driven backend systems**.
-
-I am particularly interested in the engineering behind reliable AI: retrieval quality, grounding, evaluation, APIs, model integration, testing, containerization, and production-oriented system design.
-
-* 🎓 B.Sc. in **Artificial Intelligence Engineering**
-* 💼 AI Intern at **Abu Dhabi Islamic Bank (ADIB)**
-* 🧠 Building with **RAG, LLMs, NLP, Machine Learning, and Deep Learning**
-* ⚙️ Interested in turning AI prototypes into **reliable end-to-end systems**
-* 📍 Based in **Abu Dhabi, UAE**
-
----
-
-# Featured AI Engineering Project
-
-## 🧠 NexusRAG
-
-### Production-Style Local-First Retrieval-Augmented Generation System
-
-> A complete private-document RAG system built to expose and implement the major components of modern retrieval-augmented generation rather than hiding them behind a high-level framework.
-
-[![Repository](https://img.shields.io/badge/View_Repository-NexusRAG-181717?style=for-the-badge\&logo=github)](https://github.com/Abdulraheem-Bawazir/NexusRAG)
-
-### Architecture
-
-```text
-PDF / DOCX / TXT
-        │
-        ▼
-Document Ingestion
-        │
-        ▼
-     Chunking
-        │
-        ├───────────────┐
-        ▼               ▼
- MiniLM Embeddings     BM25
-        │               │
-        ▼               │
-    ChromaDB            │
-        │               │
-        └───────┬───────┘
-                ▼
-      Reciprocal Rank Fusion
-                │
-                ▼
-         Retrieved Evidence
-                │
-                ▼
-          Grounded Prompt
-                │
-                ▼
-         Qwen3 via Ollama
-                │
-                ▼
-     Answer + Validated Citations
-                │
-        ┌───────┼────────┐
-        ▼       ▼        ▼
-     FastAPI    MCP     Web UI
-                │
-                ▼
-        Docker / CI / Testing
-```
-
-### Engineering Highlights
-
-* 📄 PDF, DOCX, and TXT document ingestion
-* ✂️ Deterministic document chunking with metadata preservation
-* 🧠 Local `all-MiniLM-L6-v2` embeddings
-* 🗃️ Persistent ChromaDB vector storage
-* 🔎 Semantic retrieval
-* 🔤 BM25 lexical retrieval
-* 🔀 Hybrid search using Reciprocal Rank Fusion
-* 🤖 Local Qwen3 generation through Ollama
-* 📚 Grounded answers with source and page citations
-* 🛡️ Insufficient-evidence handling
-* 📊 Retrieval and citation evaluation
-* ⚡ FastAPI REST API
-* 🔌 Model Context Protocol integration
-* 🐳 Docker and Docker Compose deployment
-* 🔄 GitHub Actions CI
-* 🔍 Request IDs and observability
-* ✅ **179 automated tests passing**
-
-**Core Technologies**
-
-`Python` · `RAG` · `LLMs` · `NLP` · `FastAPI` · `ChromaDB` · `BM25` · `Ollama` · `Qwen3` · `MCP` · `Docker` · `GitHub Actions`
+<p align="center">
+  <a href="https://github.com/Abdulraheem-Bawazir">
+    <img src="https://komarev.com/ghpvc/?username=Abdulraheem-Bawazir&label=PROFILE%20VIEWS&color=7C3AED&style=for-the-badge" alt="Profile Views" />
+  </a>
+  <a href="https://github.com/Abdulraheem-Bawazir?tab=followers">
+    <img src="https://img.shields.io/github/followers/Abdulraheem-Bawazir?style=for-the-badge&logo=github&label=FOLLOWERS&color=4F46E5" alt="Followers" />
+  </a>
+  <a href="https://github.com/Abdulraheem-Bawazir/NexusRAG/stargazers">
+    <img src="https://img.shields.io/github/stars/Abdulraheem-Bawazir/NexusRAG?style=for-the-badge&logo=github&label=NEXUSRAG%20STARS&color=6D28D9" alt="NexusRAG Stars" />
+  </a>
+</p>
 
 ---
 
-# Selected Projects
+## About
 
-<table>
-<tr>
-<td width="50%" valign="top">
+I am an **Artificial Intelligence Engineer** with a strong software-engineering mindset and hands-on experience building AI-powered applications, machine learning systems, backend services, mobile products, databases, and production-style RAG architectures.
 
-## 🤖 SophiAI
+My work focuses on the engineering required to move AI beyond isolated demos into **structured, testable, maintainable, and deployable systems**. I am particularly interested in **Retrieval-Augmented Generation, Large Language Models, Machine Learning, Natural Language Processing, Deep Learning, semantic search, backend APIs, databases, AI evaluation, containerization, and full-stack AI products**.
 
-**AI-Powered Smart Personal Assistant**
+I enjoy understanding the complete system rather than treating AI as a black box. That means working across **data preparation, embeddings, retrieval, model inference, application integration, testing, deployment, observability, and user experience**.
 
-Cross-platform conversational AI application that transforms natural-language voice commands into structured schedules, reminders, and productivity actions.
+My approach is product-oriented: understand the problem, design the architecture, build the full workflow, evaluate the result, handle failure cases, protect data integrity, and deliver something that can actually be used.
 
-### Highlights
+### Open To
 
-* Voice-based interaction
-* Speech transcription
-* Natural-language intent extraction
-* Intelligent scheduling
-* Conflict detection
-* Alternative-time suggestions
-* Recurring tasks
-* Real-time Firebase synchronization
-* AI productivity features
-
-**Stack**
-
-`React Native` `Expo` `OpenAI` `Firebase` `JavaScript`
-
-<br>
-
-[![View Project](https://img.shields.io/badge/View_Project-SophiAI-181717?style=flat-square\&logo=github)](https://github.com/Abdulraheem-Bawazir/SophiAI-Showcase)
-
-</td>
-
-<td width="50%" valign="top">
-
-## 🏭 Predictive Maintenance
-
-**Hybrid CNN–LSTM Machine Failure Classification**
-
-Deep-learning project exploring machine-failure prediction from industrial sensor data using the AI4I 2020 Predictive Maintenance dataset.
-
-### Highlights
-
-* Industrial sensor preprocessing
-* Hybrid 1D CNN–LSTM architecture
-* Classification pipeline
-* Model training and validation
-* Precision / Recall / F1 evaluation
-* Imbalanced-data analysis
-
-**Stack**
-
-`Python` `TensorFlow` `Keras` `scikit-learn` `Pandas` `NumPy`
-
-<br>
-
-[![View Project](https://img.shields.io/badge/View_Project-Predictive_Maintenance-181717?style=flat-square\&logo=github)](https://github.com/Abdulraheem-Bawazir/Predictive-Maintenance-CNN-LSTM)
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-## ✈️ Flight DBMS
-
-**Flight Management Database System**
-
-Relational database system supporting airline operations including flights, schedules, bookings, tickets, payments, aircraft, airports, users, and roles.
-
-### Highlights
-
-* Relational database architecture
-* 10 core database tables
-* PostgreSQL constraints and indexes
-* PL/pgSQL procedures and functions
-* Database triggers
-* SQL analytics
-* Flask web application
-* Authentication and CRUD workflows
-
-**Stack**
-
-`PostgreSQL` `SQL` `PL/pgSQL` `Python` `Flask` `Supabase`
-
-<br>
-
-[![View Project](https://img.shields.io/badge/View_Project-Flight_DBMS-181717?style=flat-square\&logo=github)](https://github.com/Abdulraheem-Bawazir/CMPE-344-Project-FlightDBMS)
-
-</td>
-
-<td width="50%" valign="top">
-
-## 🔬 What I'm Building Toward
-
-My portfolio is increasingly focused on the engineering required to build dependable AI applications:
-
-* Retrieval-Augmented Generation
-* LLM application architecture
-* AI agents and tool integration
-* Semantic search
-* Vector databases
-* Model Context Protocol
-* AI evaluation
-* Local AI infrastructure
-* Containerized AI services
-* Production-oriented APIs
-
-I am especially interested in systems where **AI, backend engineering, data, and deployment meet**.
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="https://img.shields.io/badge/Artificial%20Intelligence%20Engineer-OPEN-7C3AED?style=flat-square" alt="AI Engineer" />
+  <img src="https://img.shields.io/badge/Machine%20Learning%20Engineer-OPEN-6D28D9?style=flat-square" alt="ML Engineer" />
+  <img src="https://img.shields.io/badge/RAG%20%2F%20LLM%20Engineer-OPEN-5B21B6?style=flat-square" alt="RAG LLM Engineer" />
+  <img src="https://img.shields.io/badge/Applied%20AI%20Engineer-OPEN-4F46E5?style=flat-square" alt="Applied AI Engineer" />
+</p>
 
 ---
 
-# AI & Machine Learning Stack
-
-### Artificial Intelligence
-
-![RAG](https://img.shields.io/badge/RAG-Retrieval_Augmented_Generation-8A2BE2?style=flat-square)
-![LLMs](https://img.shields.io/badge/LLMs-Large_Language_Models-412991?style=flat-square)
-![NLP](https://img.shields.io/badge/NLP-Natural_Language_Processing-00897B?style=flat-square)
-![Machine Learning](https://img.shields.io/badge/Machine_Learning-ML-FF6F00?style=flat-square)
-![Deep Learning](https://img.shields.io/badge/Deep_Learning-Neural_Networks-CC0000?style=flat-square)
-![OpenAI](https://img.shields.io/badge/OpenAI-API-412991?style=flat-square\&logo=openai\&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-Local_LLMs-000000?style=flat-square)
-
-### RAG & AI Infrastructure
-
-![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector_Database-F4B400?style=flat-square)
-![BM25](https://img.shields.io/badge/BM25-Lexical_Retrieval-005571?style=flat-square)
-![MCP](https://img.shields.io/badge/MCP-Model_Context_Protocol-5A29E4?style=flat-square)
-![FastAPI](https://img.shields.io/badge/FastAPI-API-009688?style=flat-square\&logo=fastapi\&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Containers-2496ED?style=flat-square\&logo=docker\&logoColor=white)
-
-### Machine Learning & Data
-
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square\&logo=tensorflow\&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square\&logo=scikitlearn\&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square\&logo=pandas\&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square\&logo=numpy\&logoColor=white)
+## Tech Stack
 
 ### Languages
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square\&logo=openjdk\&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square\&logo=javascript\&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square\&logo=postgresql\&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square\&logo=cplusplus\&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,js,java,kotlin,cpp,cs&theme=dark" alt="Programming Languages" />
+</p>
 
-### Backend, Database & Cloud
+<p align="center">
+  <img src="https://img.shields.io/badge/SQL-4F46E5?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
+</p>
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square\&logo=postgresql\&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square\&logo=firebase\&logoColor=black)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square\&logo=supabase\&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square\&logo=flask\&logoColor=white)
-![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square\&logo=microsoftazure\&logoColor=white)
+### Frontend
 
-### Application Development
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,html,css&theme=dark" alt="Frontend" />
+</p>
 
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square\&logo=react\&logoColor=61DAFB)
-![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square\&logo=expo\&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/React%20Native-312E81?style=flat-square&logo=react&logoColor=white" alt="React Native" />
+  <img src="https://img.shields.io/badge/Expo-4F46E5?style=flat-square&logo=expo&logoColor=white" alt="Expo" />
+</p>
 
-### Engineering Tools
+### Backend & Databases
 
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square\&logo=git\&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square\&logo=github\&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square\&logo=githubactions\&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square\&logo=visualstudiocode\&logoColor=white)
-![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=flat-square\&logo=androidstudio\&logoColor=white)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=fastapi,flask,firebase,postgres&theme=dark" alt="Backend and Databases" />
+</p>
 
----
+<p align="center">
+  <img src="https://img.shields.io/badge/ChromaDB-7C3AED?style=flat-square" alt="ChromaDB" />
+  <img src="https://img.shields.io/badge/Supabase-5B21B6?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
+  <img src="https://img.shields.io/badge/REST%20APIs-4338CA?style=flat-square" alt="REST APIs" />
+</p>
 
-# Engineering Mindset
+### Cloud, DevOps & Tooling
 
-I like understanding what happens **inside the system**, not only connecting APIs together.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=azure,docker,git,github,githubactions,linux,postman,vscode,androidstudio&theme=dark" alt="Cloud DevOps Tooling" />
+</p>
 
-For AI projects, that means thinking about:
-
-```text
-Data
-  ↓
-Preprocessing
-  ↓
-Representation / Embeddings
-  ↓
-Retrieval or Model Inference
-  ↓
-Evaluation
-  ↓
-API / Application Integration
-  ↓
-Testing
-  ↓
-Deployment
-  ↓
-Monitoring & Improvement
-```
-
-My goal is to build AI systems that are not only intelligent, but also **measurable, testable, maintainable, and useful**.
+<p align="center">
+  <img src="https://img.shields.io/badge/Ollama-312E81?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
+  <img src="https://img.shields.io/badge/MCP-Model%20Context%20Protocol-6D28D9?style=flat-square" alt="MCP" />
+  <img src="https://img.shields.io/badge/Power%20BI-4F46E5?style=flat-square&logo=powerbi&logoColor=white" alt="Power BI" />
+</p>
 
 ---
 
-# Certifications
+## AI / ML Expertise
 
-* 🎓 Microsoft Azure AI Fundamentals
-* ☁️ Microsoft Azure Machine Learning & MLOps
-* 🧠 Deep Learning & Neural Networks
-* 💬 Natural Language Processing
-* 🤖 Microsoft Copilot Studio
-
----
-
-# Current Focus
-
-```python
-abdulraheem = {
-    "role": "Artificial Intelligence Engineer",
-    "location": "Abu Dhabi, UAE",
-    "building": [
-        "Retrieval-Augmented Generation Systems",
-        "LLM Applications",
-        "AI Agents",
-        "Machine Learning Systems",
-        "NLP Applications",
-    ],
-    "learning": [
-        "Advanced RAG",
-        "AI Evaluation",
-        "Agentic AI",
-        "Local LLM Infrastructure",
-        "Production AI Engineering",
-    ],
-}
-```
+| Domain | Proficiency | Details |
+| :--- | :---: | :--- |
+| **Retrieval-Augmented Generation** | ![Strong](https://img.shields.io/badge/Strong-7C3AED?style=flat-square) | Document ingestion, chunking, embeddings, ChromaDB, semantic search, BM25, hybrid retrieval, RRF, grounding, citations |
+| **Large Language Model Applications** | ![Strong](https://img.shields.io/badge/Strong-6D28D9?style=flat-square) | Local LLM inference, prompting, structured output, context construction, tool integration, grounded generation |
+| **Embeddings & Vector Search** | ![Strong](https://img.shields.io/badge/Strong-5B21B6?style=flat-square) | Sentence Transformers, vector storage, similarity retrieval, metadata filtering, persistent indexing |
+| **Natural Language Processing** | ![Strong](https://img.shields.io/badge/Strong-4F46E5?style=flat-square) | Intent extraction, multilingual conversational AI, semantic search, speech-to-structured-task workflows |
+| **Machine Learning** | ![Applied](https://img.shields.io/badge/Applied-6366F1?style=flat-square) | Classification, statistical analysis, preprocessing, feature preparation, evaluation, regression |
+| **Deep Learning** | ![Applied](https://img.shields.io/badge/Applied-7C3AED?style=flat-square) | CNN, LSTM, hybrid CNN-LSTM architectures, TensorFlow/Keras, PyTorch |
+| **AI Evaluation** | ![Applied](https://img.shields.io/badge/Applied-6D28D9?style=flat-square) | Precision, Recall, F1, retrieval metrics, citation validation, guardrails, insufficient-evidence handling |
+| **Full-Stack AI Engineering** | ![Strong](https://img.shields.io/badge/Strong-4F46E5?style=flat-square) | FastAPI, Flask, React Native, Firebase, REST APIs, Docker, CI, application integration |
 
 ---
 
-<div align="center">
+## Featured Projects
 
-## Let's Connect
-
-I'm interested in opportunities where I can contribute to **AI engineering, machine learning, NLP, LLM applications, and intelligent systems** while continuing to grow as an engineer.
+<details open>
+<summary><strong>NexusRAG — Production-Style Local-First Retrieval-Augmented Generation System</strong></summary>
 
 <br>
 
-<a href="https://www.linkedin.com/in/abdulrheembawazir">
-  <img src="https://img.shields.io/badge/LinkedIn-Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
-</a>
-<a href="mailto:abdulrheembawazir9@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Get_In_Touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
-</a>
+A private-document AI knowledge system built to expose and implement the major components of modern Retrieval-Augmented Generation instead of hiding them behind a high-level framework.
 
-<br><br>
+| Engineering Dimension | Details |
+| :--- | :--- |
+| **Stack** | Python · FastAPI · Sentence Transformers · ChromaDB · BM25 · Reciprocal Rank Fusion · Qwen3 · Ollama · MCP · Docker · GitHub Actions |
+| **Scale** | PDF, DOCX, and TXT knowledge bases with persistent local vector storage and document-level metadata |
+| **Performance** | **179 automated tests** · current 4-query verification set: Hit Rate@3 = 1.0 · Recall@3 = 1.0 · MRR = 1.0 |
+| **Security** | Local-first architecture for private documents without requiring a paid cloud LLM API |
+| **Impact** | Produces grounded answers with traceable citations and explicit insufficient-evidence handling |
+| **Repository** | [NexusRAG](https://github.com/Abdulraheem-Bawazir/NexusRAG) |
 
-**Abdulraheem Bawazir**
-Artificial Intelligence Engineer · Abu Dhabi, UAE
+NexusRAG implements the complete flow from raw documents to grounded generation:
 
-</div>
+`Documents → Parsing → Chunking → Embeddings → Vector Storage → Semantic Retrieval + BM25 → RRF → Retrieved Evidence → Local LLM → Citation Validation`
+
+The system also includes REST APIs, MCP tools, a user-facing web interface, Docker deployment, GitHub Actions CI, request IDs, logging, retrieval evaluation, citation metrics, and structured failure handling.
+
+</details>
+
+<br>
+
+<details>
+<summary><strong>SophiAI — AI-Powered Smart Personal Assistant</strong></summary>
+
+<br>
+
+A cross-platform conversational AI application designed to transform voice and natural-language requests into structured schedules, reminders, and productivity actions.
+
+| Engineering Dimension | Details |
+| :--- | :--- |
+| **Stack** | React Native · Expo · Firebase Authentication · Firestore · OpenAI API · Speech Transcription · JavaScript |
+| **Scale** | Cross-platform mobile application with English, Arabic, and Turkish interaction flows |
+| **Performance** | Voice transcription, structured task extraction, conflict detection, alternative-time suggestions, recurring tasks, real-time Firestore synchronization |
+| **Security** | Firebase Authentication with user-specific cloud data and confirmation-driven scheduling workflows |
+| **Impact** | Reduces manual scheduling effort through conversational task creation and intelligent planning |
+| **Repository** | [SophiAI Showcase](https://github.com/Abdulraheem-Bawazir/SophiAI-Showcase) |
+
+SophiAI combines conversational AI with practical product engineering. The application processes natural-language requests, extracts structured scheduling information, checks existing calendar entries, handles conflicts, and synchronizes confirmed tasks with Firestore.
+
+My work focused heavily on the voice and conversational AI experience, AI-service integration, mobile assistant interface, scheduling integration, testing, debugging, and usability improvements.
+
+</details>
+
+<br>
+
+<details>
+<summary><strong>Predictive Maintenance — Hybrid CNN-LSTM Machine Failure Classification</strong></summary>
+
+<br>
+
+A deep-learning project exploring industrial machine-failure classification using sensor data from the AI4I 2020 Predictive Maintenance dataset.
+
+| Engineering Dimension | Details |
+| :--- | :--- |
+| **Stack** | Python · TensorFlow · Keras · Scikit-learn · Pandas · NumPy |
+| **Scale** | Binary No-Failure / Failure classification using industrial sensor data |
+| **Performance** | Course report documents a 400-sample held-out test split with 100% reported Precision, Recall, and F1; repository explicitly documents benchmark limitations |
+| **Security** | Offline academic experimentation using a public industrial dataset |
+| **Impact** | Demonstrates preprocessing, imbalanced-data analysis, neural-network design, training, evaluation, and critical interpretation of model results |
+| **Repository** | [Predictive Maintenance CNN-LSTM](https://github.com/Abdulraheem-Bawazir/Predictive-Maintenance-CNN-LSTM) |
+
+The architecture combines **1D convolutional layers** for feature extraction with an **LSTM layer** for sequential modeling, followed by dense classification layers.
+
+The project covers preprocessing, standardization, encoding, train/validation/test splitting, regularization, training with Adam, and evaluation using Precision, Recall, F1-score, accuracy, and confusion matrices.
+
+</details>
+
+<br>
+
+<details>
+<summary><strong>Flight DBMS — Flight Management Database System</strong></summary>
+
+<br>
+
+A relational database management system supporting airline operations including users, roles, airports, aircraft, flights, schedules, bookings, tickets, and payments.
+
+| Engineering Dimension | Details |
+| :--- | :--- |
+| **Stack** | PostgreSQL · SQL · PL/pgSQL · Python · Flask · Supabase · HTML · Jinja |
+| **Scale** | **10 core relational tables** supporting airline operational workflows |
+| **Performance** | Relationship indexes, SQL analytics, database procedures, functions, triggers, constraints, and database-side automation |
+| **Security** | Werkzeug password hashing, session-protected management pages, role-based access, environment-based secret configuration |
+| **Impact** | Demonstrates relational system design, data integrity, database programming, backend integration, authentication, and CRUD workflows |
+| **Repository** | [Flight DBMS](https://github.com/Abdulraheem-Bawazir/CMPE-344-Project-FlightDBMS) |
+
+The project goes beyond basic CRUD by implementing database-side business rules using **constraints, indexes, PL/pgSQL procedures, functions, and triggers**.
+
+The Flask application provides authenticated workflows for flight schedules, bookings, and tickets while PostgreSQL enforces important data-integrity rules close to the data layer.
+
+</details>
+
+---
+
+## Experience
+
+### Artificial Intelligence & Data Science Intern
+
+**Abu Dhabi Islamic Bank (ADIB)**  
+**Jun 2025 — Jul 2025 · Abu Dhabi, UAE**
+
+Worked within an enterprise banking environment across AI, data analysis, machine learning evaluation, and mobile application development.
+
+**Scope of Work**
+
+- Cleaned and prepared usability datasets with **Python and Pandas**, transforming raw prototype-testing data into analysis-ready formats.
+- Performed statistical and machine-learning analysis using **SciPy, Statsmodels, and Scikit-learn**.
+- Applied **T-tests, Chi-Squared analysis, Logistic Regression, and correlation analysis** to evaluate banking-interface performance and user preference.
+- Identified measurable differences in task efficiency between interface prototypes and supported data-driven design recommendations.
+- Fixed UI issues in a **Kotlin Android prototype** across Home, Profile, and Beneficiaries screens.
+- Worked within an **Agile engineering environment** alongside technical and data-focused teams.
+
+<p>
+  <img src="https://img.shields.io/badge/Python-4F46E5?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Pandas-6D28D9?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/Scikit--learn-7C3AED?style=flat-square&logo=scikitlearn&logoColor=white" alt="Scikit-learn" />
+  <img src="https://img.shields.io/badge/SciPy-5B21B6?style=flat-square&logo=scipy&logoColor=white" alt="SciPy" />
+  <img src="https://img.shields.io/badge/Kotlin-4338CA?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin" />
+  <img src="https://img.shields.io/badge/Agile-312E81?style=flat-square" alt="Agile" />
+</p>
+
+---
+
+## Achievements
+
+| Recognition | Details |
+| :---: | :--- |
+| **B.Sc. Artificial Intelligence Engineering with Honors** | Graduated from Cyprus International University with a **3.18 CGPA** |
+| **High Honor Certificate** | Academic recognition for high academic performance |
+| **Honor Certificates** | Received academic Honor recognition across multiple semesters |
+| **NexusRAG Engineering Milestone** | Built a complete local-first RAG system with **179 automated tests passing** |
+| **SophiAI Graduation Project** | Contributed to the development of a multilingual conversational AI productivity application |
+| **Enterprise AI Experience** | Applied statistical analysis, machine learning evaluation, and mobile development during ADIB internship |
+
+---
+
+## Certifications
+
+### Microsoft
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Microsoft-Azure%20AI%20Fundamentals-4F46E5?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure AI Fundamentals" />
+  <img src="https://img.shields.io/badge/Microsoft-Azure%20Machine%20Learning%20%26%20MLOps-6D28D9?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure Machine Learning and MLOps" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Microsoft-Copilot%20Studio-7C3AED?style=for-the-badge&logo=microsoft&logoColor=white" alt="Microsoft Copilot Studio" />
+</p>
+
+### AI / Machine Learning
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Deep%20Learning-Neural%20Networks-5B21B6?style=for-the-badge" alt="Deep Learning and Neural Networks" />
+  <img src="https://img.shields.io/badge/Natural%20Language%20Processing-NLP-4338CA?style=for-the-badge" alt="Natural Language Processing" />
+</p>
+
+---
+
+## Coding Profiles
+
+<p align="center">
+  <a href="https://github.com/Abdulraheem-Bawazir">
+    <img src="https://img.shields.io/badge/GitHub-ENGINEERING%20PORTFOLIO-312E81?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Engineering Portfolio" />
+  </a>
+</p>
+
+<p align="center">
+  <sub>LeetCode, GeeksforGeeks, HackerRank, and CodeChef are not linked until verified public profile handles are available.</sub>
+</p>
+
+---
+
+## GitHub Analytics
+
+<p align="center">
+  <img
+    width="49%"
+    src="https://github-readme-stats.vercel.app/api?username=Abdulraheem-Bawazir&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=7C3AED&text_color=C9D1D9&rank_icon=github"
+    alt="Abdulraheem Bawazir GitHub Stats"
+  />
+  <img
+    width="49%"
+    src="https://streak-stats.demolab.com?user=Abdulraheem-Bawazir&hide_border=true&background=0D1117&ring=7C3AED&fire=A78BFA&currStreakLabel=A78BFA&sideLabels=C9D1D9&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF"
+    alt="GitHub Streak"
+  />
+</p>
+
+<p align="center">
+  <img
+    width="55%"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdulraheem-Bawazir&layout=compact&langs_count=10&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9"
+    alt="Top Languages"
+  />
+</p>
+
+---
+
+## GitHub Trophies
+
+<p align="center">
+  <img
+    width="100%"
+    src="https://github-profile-trophy.vercel.app/?username=Abdulraheem-Bawazir&theme=dracula&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=7"
+    alt="GitHub Trophies"
+  />
+</p>
+
+---
+
+## Contribution Activity
+
+<p align="center">
+  <img
+    width="100%"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=Abdulraheem-Bawazir&bg_color=0D1117&color=A78BFA&line=7C3AED&point=C4B5FD&area=true&area_color=4C1D95&hide_border=true"
+    alt="Contribution Activity Graph"
+  />
+</p>
+
+---
+
+## Contribution Snake
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Contribution%20Snake-Workflow%20Not%20Enabled%20Yet-6D28D9?style=for-the-badge&logo=githubactions&logoColor=white" alt="Contribution Snake Status" />
+</p>
+
+<p align="center">
+  <sub>The animated contribution snake should be enabled only after the profile repository generates its own output branch, preventing a broken or fake contribution graphic.</sub>
+</p>
+
+---
+
+## Current Focus
+
+```yaml
+learning:
+  - Advanced Retrieval-Augmented Generation
+  - Retrieval evaluation and ranking quality
+  - Production LLM application architecture
+  - AI system evaluation
+  - Reliable local AI infrastructure
+
+building:
+  - NexusRAG
+  - Private-document AI systems
+  - Full-stack AI applications
+  - Tested and deployable backend services
+  - Intelligent product workflows
+
+exploring:
+  - Agentic AI
+  - Model Context Protocol
+  - Advanced RAG architectures
+  - Multimodal AI
+  - Local LLM deployment
+  - AI observability
+
+open_to:
+  - Artificial Intelligence Engineer
+  - Machine Learning Engineer
+  - RAG / LLM Engineer
+  - Applied AI Engineer
+  - AI Product Engineer
